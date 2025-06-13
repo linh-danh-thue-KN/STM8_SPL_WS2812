@@ -9,6 +9,17 @@ LED	WS2812 hoặc WS2812B
 Chân điều khiển	PD4
 Điện áp hoạt động	5V (MCU + WS2812 cùng nguồn)
 
++----------------------+
+|     STM8S103F3P6     |
+|                      |
+|         PD4 o--------+--------o DI     (WS2812)
+|                      |        |
+|        GND o------------------+--------o GND
+|                      |        |
+|        VDD o------------------+--------o VDD
++----------------------+
+
+
 Lưu ý: WS2812 yêu cầu tín hiệu logic 5V. Nếu dùng nguồn 3.3V, cần mạch chuyển mức tín hiệu.
 
 🧠 Nguyên lý hoạt động
