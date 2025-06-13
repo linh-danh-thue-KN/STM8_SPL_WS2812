@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "stm8s.h": "c",
+        "stm8s_spi.h": "c",
+        "stdint.h": "c",
+        "stdbool.h": "c"
+    },
+    "idf.pythonInstallPath": "/usr/bin/python3",
+    "C_Cpp.errorSquiggles": "disabled"
+}
